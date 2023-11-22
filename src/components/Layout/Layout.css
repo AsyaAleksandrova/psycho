@@ -15,89 +15,11 @@
    height: 100vh;
    display: grid;
    grid-template-columns: 55% 15% 15% 15%;
-   grid-template-rows: 50px 50px 90px auto 100px;
+   grid-template-rows: 50px 50px 90px auto 120px;
    grid-template-areas:
          "header header header header"
          "menu menu menu menu"
          "subtitle subtitle subtitle subtitle"
          "photo content content contact"
          "photo title title title";
-}
-
-
-
-.contacts{
-   grid-area: contact;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 45px;
-   border-left: 1.5px solid var(--colorText);
-   border-bottom: 1.5px solid var(--colorText);
-   height: 300px;
-}
-
-.contacts__location{
-   height: 70px;
-   width: 100%;
-   padding-left: 15px;
-   border-bottom: 1.5px solid var(--colorText);
-   display: flex;
-   align-items: center;
-}
-
-.contacts__city{
-   color: var(--colorText);
-   font-family: var(--font);
-   font-weight: thin;
-   font-size: 28px;
-   letter-spacing: 1px;
-   padding-left: 10px;
-}
-
-.contacts__button{
-   background-color: var(--colorButton);
-   border: none;
-   outline: none;
-   color: var(--colorText);
-   height: 40px;
-   width: 90%;
-   margin: 10px 0;
-   border-radius: 15px;
-   text-transform: uppercase;
-   font-family: var(--font);
-   font-weight: bold;
-   font-size: 28px;
-   letter-spacing: 3px;
-   cursor: pointer;
-   transition: all 0.5s ease;
-}
-
-.contacts__button:hover{
-   letter-spacing: 4px;
-   width: 95%;
-}
-
-.contacts__social{
-   width: 100%;
-   padding: 0 15px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-}
-
-.contacts__icon{
-   color: var(--colorText);
-   font-size: 40px;
-   transition: all 0.5s ease;
-}
-
-.contacts__icon_telegram{
-   color: var(--colorText);
-   font-size: 44px;
-   transition: all 0.5s ease;
-}
-
-.contacts__icon_telegram:hover, .contacts__icon:hover{
-   transform: scale(1.1);
 }
