@@ -1,0 +1,50 @@
+.subtitle{
+   grid-area: subtitle;
+   position: relative;
+   display: grid;
+   grid-template-columns: 55% 45%;
+   grid-template-rows: 90px;
+}
+
+.subtitle__name {
+   font-family: var(--font);
+   font-weight: thin;
+   font-size: 60px;
+   letter-spacing: 2px;
+   margin: 0;
+   padding: 5px 5px 5px 10px;
+   color: var(--colorText);
+}
+
+.subtitle__text {
+   font-family: var(--font);
+   font-weight: bold;
+   font-size: 60px;
+   letter-spacing: 2px;
+   margin: 0;
+   padding: 5px;
+   color: var(--colorText);
+}
+
+.main__title {
+   font-family: var(--font);
+   font-weight: bold;
+   font-size: 100px;
+   margin: 0;
+   color: var(--colorText);
+   width: 100%;
+   grid-area: title;
+   align-self: flex-end;
+   border-bottom: 15px solid var(--colorText);
+}
+
+.main__photo {
+   background-image: url('../../images/photo_2023-11-22_11.04.20-transformed\ \(1\)\ \(1\).png');
+   width: 70%;
+   height: 90%;
+   background-repeat: no-repeat;
+   background-size: contain;
+   grid-area: photo;
+   justify-self: center;
+   align-self: flex-end;
+}

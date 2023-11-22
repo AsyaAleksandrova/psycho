@@ -1,33 +1,22 @@
 import React from 'react';
 import './Layout.css';
+import Menu from '../Menu/Menu';
 import telegramLink from '../../images/telegram.svg';
 import whatsAppLink from '../../images/whatsapp.svg';
 import dzenLink from '../../images/dzen.svg';
+import { Outlet } from 'react-router-dom';
 
 
 function Layout() {
 
 
   return (
-     <div className='root'>
-        <nav className='menu'>
-           <ul className='menu__list'>
-              <li className='menu__item'>
-                 
-              </li>
-              <li className='menu__item'>
-                 <p className='menu__text'>Обо мне</p>
-              </li>
-              <li className='menu__item'>
-                 <p className='menu__text'>Кейсы</p>
-              </li>
-              <li className='menu__item'>
-                 <p className='menu__text'>Контакты</p>
-              </li>
-           </ul>
-        </nav>
-        <p className='subtitle__name'>Специализация</p>
-        <h2 className='subtitle'>Психолог, гештальт-терапевт</h2>
+      <div className='root'>
+        <Menu />
+        <Outlet />
+
+
+        
 
         <section className='contacts'>
            <section className='contacts__location'>
@@ -41,8 +30,6 @@ function Layout() {
            </section>
            <button className='contacts__button'>Записаться</button>
         </section>
-        <h1 className='title'>Дмитрий Амельченко</h1>
-        <div className='photo'></div>
     </div>
    
   );
