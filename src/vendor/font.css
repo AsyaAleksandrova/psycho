@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Concrete';
+  src: url('../fonts/Concrete-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sansterdam';
+  src: url('../fonts/sansterdam/TTF/Sansterdam-BoldDeco.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sansterdam';
+  src: url('../fonts/sansterdam/TTF/Sansterdam-ThinDeco.ttf');
+  font-weight: thin;
+  font-style: normal;
+}
