@@ -9,7 +9,6 @@ function Menu() {
 
   return (
       <header className='menu'>
-        <motion.p className='menu__copy menu__text' animate={{ opacity: 0.5 }} initial={{opacity: 0}} transition={{ duration: 0.5, delay: 2} }>&copy; 2023</motion.p>
         <nav>
             <ul className='menu__list'>  
                <motion.li className='menu__item' animate={{ translateY: '0%' }} initial={{translateY: '300%'}} transition={{ duration: 0.5, delay: 2} }>

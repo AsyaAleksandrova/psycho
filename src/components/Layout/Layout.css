@@ -18,7 +18,7 @@
    grid-template-rows: 50px 50px 90px auto 140px;
    grid-template-areas:
          "header header header header"
-         "menu menu menu menu"
+         ". menu menu menu"
          "subtitle subtitle subtitle subtitle"
          "photo content content contact"
          "photo title title title";
@@ -41,4 +41,16 @@
    position: absolute;
    height: 15px;
    background-color: var(--colorText);
+}
+
+.root__copy {
+   opacity: 0.5;
+   position: absolute;
+   bottom: 20px;
+   right: 10px;
+   font-family: var(--font);
+   font-size: 36px;
+   letter-spacing: 1px;
+   color: var(--colorText);
+   transition: all 0.5s ease;
 }
