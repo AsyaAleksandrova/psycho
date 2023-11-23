@@ -7,7 +7,7 @@
 .root {
    --colorText: #F4F4EF;
    --colorBackground: #313137;
-   --colorButton: #7A8070;
+   --colorButton: rgb(122, 128, 112);
    --font: 'Sansterdam';
 
    background-color: var(--colorBackground);
