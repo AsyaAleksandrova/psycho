@@ -9,16 +9,16 @@ function Menu() {
 
   return (
       <header className='menu'>
-        <p className='menu__copy menu__text'>&copy; 2023</p>
+        <motion.p className='menu__copy menu__text' animate={{ opacity: 0.5 }} initial={{opacity: 0}} transition={{ duration: 0.5, delay: 2} }>&copy; 2023</motion.p>
         <nav>
             <ul className='menu__list'>  
-               <motion.li className='menu__item' animate={{ scaleY:1 }} initial={{scaleY:0}} transition={{ duration: 0.5, delay: 0} }>
+               <motion.li className='menu__item' animate={{ translateY: '0%' }} initial={{translateY: '300%'}} transition={{ duration: 0.5, delay: 2} }>
                   <NavLink to='/about'  className='menu__text'>Обо мне</NavLink>
                </motion.li>
-               <motion.li className='menu__item' animate={{ scaleY:1 }} initial={{scaleY:0}} transition={{ duration: 0.5, delay: 0} }>
+               <motion.li className='menu__item' animate={{ translateY: '0%' }} initial={{translateY: '300%'}} transition={{ duration: 0.5, delay: 2} }>
                   <NavLink to='/cases' className='menu__text'>Кейсы</NavLink>
                </motion.li>
-               <motion.li className='menu__item' animate={{ scaleY:1 }} initial={{scaleY:0}} transition={{ duration: 0.5, delay: 0} }>
+               <motion.li className='menu__item' animate={{ translateY: '0%' }} initial={{translateY: '300%'}} transition={{ duration: 0.5, delay: 2} }>
                   <NavLink to='/contacts' className='menu__text'>Контакты</NavLink>
                </motion.li>
          </ul>           
