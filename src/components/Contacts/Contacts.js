@@ -1,6 +1,5 @@
 import React from 'react';
 import './Contacts.css';
-import { motion } from 'framer-motion';
 import telegramLink from '../../images/telegram.svg';
 import whatsAppLink from '../../images/whatsapp.svg';
 import dzenLink from '../../images/dzen.svg';
