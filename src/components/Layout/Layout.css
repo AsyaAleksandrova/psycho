@@ -12,7 +12,7 @@
 
    background-color: var(--colorBackground);
    width: 100%;
-   height: 100vh;
+   min-height: 100vh;
    display: grid;
    grid-template-columns: 55% 15% 15% 15%;
    grid-template-rows: 50px 50px 90px auto 120px;
@@ -22,4 +22,23 @@
          "subtitle subtitle subtitle subtitle"
          "photo content content contact"
          "photo title title title";
+   position: relative;
+}
+
+.root__lineright{
+   position: absolute;
+   height: 1px;
+   background-color: var(--colorText);
+}
+
+.root__linedown{
+   position: absolute;
+   width: 1px;
+   background-color: var(--colorText);
+}
+
+.root__linedeco{
+   position: absolute;
+   height: 15px;
+   background-color: var(--colorText);
 }
