@@ -37,7 +37,7 @@
 }
 
 .menu__text {
-   margin: 0 5px;
+   margin: 0 10px;
    width: calc(100% - 10px);
    font-family: var(--font);
    font-size: 36px;

@@ -72,3 +72,7 @@
 .contacts__icon:hover {
    transform: scale(1.1);
 }
+
+.contacts__icon_static:hover{
+   transform: scale(1);
+}

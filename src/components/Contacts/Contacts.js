@@ -13,7 +13,7 @@ function Contacts() {
       <section className='contacts'>
         <section className='contacts__location'>
            <motion.span animate={{ scale: 1 }} initial={{ scale: 0 }} transition={{ duration: 0.5, delay: 2.5, type: "spring", stiffness: 400, damping: 15 }}>
-              <ion-icon name="location-outline" class='contacts__icon'></ion-icon>
+              <ion-icon name="location-outline" class='contacts__icon contacts__icon_static'></ion-icon>
            </motion.span>
             <motion.p className='contacts__city' animate={{ translateY: '0%' }} initial={{translateY: '300%' }} transition={{ duration: 0.5, delay: 2} }>г. Москва</motion.p>
          </section>

@@ -38,10 +38,11 @@
    font-size: 100px;
    margin: 0;
    color: var(--colorText);
+   opacity: 0.5;
 }
 
 .main__photo {
-   background-image: url('../../images/photo_2023-11-22_11.04.20-transformed\ \(1\)\ \(1\).png');
+   background-image: url('../../images/IMG_8856-transformed\ \(1\).png');
    width: 70%;
    height: 90%;
    background-repeat: no-repeat;
@@ -59,12 +60,13 @@
 .content__container{
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   padding: 5px;
+   justify-content: space-around;
+   gap: 5px;
+   padding: 10px;
    overflow: hidden;
 }
 
-.content__container:first-of-type{
+.content__container_small{
    height: 70px;
 }
 
@@ -83,7 +85,7 @@
 .content__text{
    color: var(--colorText);
    font-family: var(--font);
-   font-weight: thin;
+   font-weight: normal;
    font-size: 28px;
-   letter-spacing: 1px;
+   letter-spacing: 1.5px;
 }

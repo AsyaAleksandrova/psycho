@@ -1,0 +1,58 @@
+import React from 'react';
+import './About.css';
+import { motion } from 'framer-motion';
+
+
+function About() {
+
+
+   return (
+     <>
+      <section className='subtitle'>
+         <motion.p className='subtitle__name' animate={{ translateY: '0%' }} initial={{translateY: '300%' }} transition={{ duration: 0.5, delay: 1} }>Квалификация</motion.p>
+         <motion.h2 className='subtitle__text' animate={{ translateY: '0%' }} initial={{translateY: '300%' }} transition={{ duration: 0.5, delay: 1} }>Профессиональное образование психолога</motion.h2>
+      </section>
+         <section className='content'>
+            <div className='content__container'>
+               <div className='content__wrapper'>
+                  <motion.p className='content__text' animate={{ translateY: '0%' }} initial={{ translateY: '300%' }} transition={{ duration: 0.5, delay: 2.2 }}>
+                     Я не буду вам рассказывать, что психология это моё призвание и с очень раннего возраста я решил стать психологом. К сожалению, нет. Мой путь в профессию был долгим и куда менее радужным.<br></br><br></br>
+                  </motion.p>
+               </div>
+               <div className='content__wrapper'>
+                  <motion.p className='content__text' animate={{ translateY: '0%' }} initial={{ translateY: '300%' }} transition={{ duration: 0.5, delay: 2.3 }}>
+                     На протяжении 10 лет я обращался за помощью к разным специалистам, которые использовали разные методы (психоанализ, гештальт-терапия, КПТ, телесная терапия, эмоционально-образная терапия). Весь данный опыт позволяет мне быть достаточно критичным к своей работе, думать о клиенте и использовать только проверенные методы.<br></br> <br></br>
+                  </motion.p>
+               </div>
+               <div className='content__wrapper'>
+                  <motion.p className='content__text' animate={{ translateY: '0%' }} initial={{ translateY: '300%' }} transition={{ duration: 0.5, delay: 2.4 }}>
+                     Я лично на себе опробовал многие подходы и хорошо понимаю, что ощущает клиент на сессии. И я знаю, как оказать необходимую поддержку в непростые и критические жизненные периоды.
+                  </motion.p>
+               </div>
+            </div>
+
+      </section>
+      <section className='content__wrapper content__title'>
+            <motion.h1 className='content__title-text' animate={{ translateY: '0%' }} initial={{ translateY: '300%' }} transition={{ duration: 0.5, delay: 1 }}>Обо мне</motion.h1>
+         </section>
+         
+      <motion.div className='root__lineright' animate={{ width: '100%', top: '100px', left: 0 }} initial={{ width: 0, top: '100px', left: 0 }} transition={{ duration: 1, delay: 0 }}></motion.div>
+      <motion.div className='root__lineright' animate={{ width: '100%', top: '190px', left: 0 }} initial={{ width: 0, top: '190px', left: 0 }} transition={{ duration: 1, delay: 0.5 }}></motion.div>
+      <motion.div className='root__lineright' animate={{ width: ['0%', '100%', '15%'], top: '260px', left: ['0%', '0%', '85%'] }} initial={{ width: 0, top: '260px', left: 0 }} transition={{ duration: 1, delay: 1 }}></motion.div>
+      <motion.div className='root__lineright' animate={{ width: ['0%', '100%', '45%'], top: '700px', left: ['0%', '0%', '55%'] }} initial={{ width: 0, top: '700px', left: 0 }} transition={{ duration: 1, delay: 1.25 }}></motion.div>
+      <motion.div className='root__lineright' animate={{ width: ['0%', '100%', '15%'], top: '500px', left: ['0%', '0%', '85%'] }} initial={{ width: 0, top: '500px', left: 0 }} transition={{ duration: 1, delay: 1.25 }}></motion.div>
+      <motion.div className='root__linedown' animate={{ height: ['0px', '100px', '50px'], right: '45%', top: ['0px', '0px', '50px'] }} initial={{ height: 0, right: '45%', top: 0 }} transition={{ duration: 0.5, delay: 0 }}></motion.div>
+      <motion.div className='root__linedown' animate={{ height: ['0px', '100px', '50px'], right: '30%', top: ['0px', '0px', '50px'] }} initial={{ height: 0, right: '30%', top: 0 }} transition={{ duration: 0.5, delay: 0.5 }}></motion.div>
+      <motion.div className='root__linedown' animate={{ height: ['0px', '100px', '50px'], right: '15%', top: ['0px', '0px', '50px'] }} initial={{ height: 0, right: '15%', top: 0 }} transition={{ duration: 0.5, delay: 1 }}></motion.div>
+      <motion.div className='root__linedown' animate={{ height: '510px', right: '45%', top: '190px' }} initial={{ height: 0, right: '45%', top: '190px' }} transition={{ duration: 1, delay: 0.5 }}></motion.div>
+      <motion.div className='root__linedown' animate={{ height: '310px', right: '15%', top: '190px' }} initial={{ height: 0, right: '15%', top: '190px' }} transition={{ duration: 1, delay: 1.5 }}></motion.div>
+      <motion.div className='root__linedeco' animate={{ width: '55%', top: 0, left: 0 }} initial={{ width: 0, top: 0, left: 0 }} transition={{ duration: 1, delay: 2 }}></motion.div>
+      <motion.div className='root__linedeco' animate={{ width: ['0%', '100%', '45%'], bottom: 0, left: ['0%', '0%', '55%'] }} initial={{ width: 0, bottom: 0, left: 0 }} transition={{ duration: 1, delay: 0 }}></motion.div>
+
+     </>
+
+   
+  );
+}
+
+export default About;
