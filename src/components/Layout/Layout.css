@@ -5,9 +5,9 @@
 }
 
 .root {
-   --colorText: #F8F8F9;
+   --colorText: #F4F4EF;
    --colorBackground: #313137;
-   --colorButton: #8D8F7E;
+   --colorButton: #7A8070;
    --font: 'Sansterdam';
 
    background-color: var(--colorBackground);

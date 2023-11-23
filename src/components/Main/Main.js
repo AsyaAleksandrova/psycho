@@ -52,7 +52,10 @@ function Main() {
       <section className='content__wrapper content__title'>
             <motion.h1 className='content__title-text' animate={{ translateY: '0%' }} initial={{ translateY: '300%' }} transition={{ duration: 0.5, delay: 1 }}>Дмитрий Амельченко</motion.h1>
       </section>
-         <motion.div className='main__photo' animate={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: 1, delay: 2 }}></motion.div>
+      <motion.section className='photo' animate={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: 1, delay: 2 }}>
+         <motion.div className='photo__picture' ></motion.div>
+      </motion.section>
+         
 
       
       <motion.div className='root__lineright' animate={{ width: '100%', top: '100px', left: 0 }} initial={{ width: 0, top: '100px', left: 0 }} transition={{ duration: 1, delay: 0 }}></motion.div>
